@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    width: 200px;
+    list-style: none;
+    background-color: rgba(228, 53, 30, 0.993);
+    position: relative;
+}
+
+.menu a{
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.menu a:hover{
+    background: rgb(114, 114, 112);
+}
+
+.menu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0pt;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
